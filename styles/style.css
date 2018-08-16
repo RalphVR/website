@@ -1,0 +1,73 @@
+
+body {
+  font-family: 'Alfa Slab One', cursive;
+  perspective: 1px;
+  overflow: auto;
+  background-color: #14252B;
+}
+
+.navbar-static-top {
+  background-color:#004258;
+  color: #c9c740;
+  margin: 0px;
+}
+
+table {
+    width: 40%;
+    margin: 10px;
+}
+
+td, th {
+    text-align: right;
+    font-size: 5rem;
+    width: 50%;
+}
+
+table.menu {
+    margin-right: 55px;
+    margin-left: auto;
+}
+
+a {
+  color: #c9c740;
+}
+
+a:hover {
+  color: #dad962;
+}
+
+.jumbotron {
+  padding: 10px;
+  margin: 0px;
+  text-align: center;
+  background-color: #c9c740;
+  color: #14252B;
+}
+
+hr {
+  margin-top: 7px;
+  margin-bottom: 7px;
+  border-top: 1px solid #14252B;
+}
+
+footer {
+  color: #c9c740;
+  font-size: 2rem;
+}
+
+footer p {
+  background-color: #14252B;
+  padding: 10px;
+}
+
+@media (max-width: 768px){
+  .hide-on-mobile {
+     display: none;
+   }
+}
+
+@media (min-width: 769px) {
+  .hide-on-desktop {
+     display: none;
+   }
+}
